@@ -6,10 +6,31 @@
     box-sizing: border-box;
 }
 
-body {
+:root {
     font-family: 'Josefin Sans', sans-serif;
+    --black: #0d0c12;
+    --grey: #eeeff1;
+    --white: rgb(255, 255, 255);
 }
 
-:root {
-    --black:var(--black)
+html {
+    scroll-behavior: smooth;
 }
+
+/*header*/
+
+.nav-style {
+    width: 100%;
+    background-color: var(--black);
+}
+
+.grey-style {
+    color: var(--grey);
+}
+
+.grey-style:hover {
+    color: var(--white);
+}
+
+
+
