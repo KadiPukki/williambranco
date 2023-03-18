@@ -17,20 +17,77 @@ html {
     scroll-behavior: smooth;
 }
 
-/*header*/
+ul {
+    list-style: none;
+}
 
-.nav-style {
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    color: inherit;
+}
+
+/*menu*/
+.nav-bar {
     width: 100%;
     background-color: var(--black);
-}
-
-.grey-style {
-    color: var(--grey);
-}
-
-.grey-style:hover {
     color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.logo {
+    font-size: 6vh;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li {
+    margin: 0 4vw;
+}
+
+.menu-item {
+    font-size: 1.5vw;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*
+.btn {
+    background-color: var(--beige);
+    color: var(--brown);
+    font-size: 0.8em;
+    font-weight: 400;
+    padding: 0.5vw 1.5vw;
+    border-radius: 15px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+#menu-btn {
+    font-size: 5vh;
+    cursor: pointer;
+    position: absolute;
+    right: 4vh;
+    color: var(--beige);
+    margin-top: 8vh;
+    display: none;
+}
+*/
+
+/*menu*/
 
 
