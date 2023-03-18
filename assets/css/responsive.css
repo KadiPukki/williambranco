@@ -1,4 +1,10 @@
 @media(max-width: 850px) {
+
+    .menu-item {
+            font-size: 1.8vh;
+            font-weight: 100;
+        }
+    /*
     #menu-btn {
             display: block;
             margin-top: 0;
@@ -15,5 +21,5 @@
         
         .mobile-menu {
             margin-top: 0;
-        }
+        }*/
 }
