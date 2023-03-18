@@ -11,6 +11,7 @@
     --black: #0d0c12;
     --grey: #eeeff1;
     --white: rgb(255, 255, 255);
+    --gold: rgb(229, 186, 115);
 }
 
 html {
@@ -40,15 +41,25 @@ a:active {
     background-color: var(--black);
     color: var(--white);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
 .logo {
-    font-size: 6vh;
+    color: var(--gold);
     font-family: 'Josefin Sans', sans-serif;
-    cursor: pointer;
+    cursor: pointer;    
+}
+
+.logo h1 {
+    font-size: 6vh;
+    font-weight: 400;
+}
+
+.logo-line {
+    
+    border: 1px solid;
 }
 
 .nav-menu {
@@ -61,8 +72,19 @@ a:active {
 }
 
 .menu-item {
-    font-size: 1.5vw;
+    font-size: 4vh;
     font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+}
+
+#menu-btn {
+    font-size: 5vh;
+    cursor: pointer;
+    position: absolute;
+    right: 4vh;
+    color: var(--white);
+    margin-top: 8vh;
+    display: none;
 }
 
 /*
@@ -75,16 +97,6 @@ a:active {
     border-radius: 15px;
     transition: 0.5s;
     text-transform: uppercase;
-}
-
-#menu-btn {
-    font-size: 5vh;
-    cursor: pointer;
-    position: absolute;
-    right: 4vh;
-    color: var(--beige);
-    margin-top: 8vh;
-    display: none;
 }
 */
 
