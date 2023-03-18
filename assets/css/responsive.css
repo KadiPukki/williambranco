@@ -1,25 +1,11 @@
+
 @media(max-width: 850px) {
+    .logo h1 {
+        font-size: 3.5vh;
+    }
 
     .menu-item {
-            font-size: 1.8vh;
-            font-weight: 100;
-        }
-    /*
-    #menu-btn {
-            display: block;
-            margin-top: 0;
-        }
-    .nav-menu {
-            background-color: var(--black);
-            color: var(--white);
-            width: 100%;
-            flex-direction: column;
-            justify-content: center;         
-            
-            transition: .5s;
-        }
-        
-        .mobile-menu {
-            margin-top: 0;
-        }*/
+        font-size: 2vh;
+    
+    }
 }
