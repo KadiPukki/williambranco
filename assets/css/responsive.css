@@ -1,0 +1,19 @@
+@media(max-width: 850px) {
+    #menu-btn {
+            display: block;
+            margin-top: 0;
+        }
+    .nav-menu {
+            background-color: var(--black);
+            color: var(--white);
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;         
+            
+            transition: .5s;
+        }
+        
+        .mobile-menu {
+            margin-top: 0;
+        }
+}
