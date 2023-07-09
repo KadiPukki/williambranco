@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Crimson+Text:wght@400;600;700&family=Dancing+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
-    font-family: 'Josefin Sans', sans-serif;
-    --black: #0d0c12;
-    --grey: #eeeff1;
-    --white: rgb(255, 255, 255);
-    --gold: rgb(229, 186, 115);
+    --black: #020e04;
+    --orange: #f2bf97;
+    --white: #f7f6f3;
 }
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--white);
+}
+
+body {
+    font-family: 'Bacasime Antique', serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul {
@@ -38,28 +38,24 @@ a:active {
 /*menu*/
 .nav-bar {
     width: 100%;
-    background-color: var(--black);
-    color: var(--white);
+    height: 15vh;
+    background-color: var(--orange);
+    color: var(--black);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    padding: 0 5vw;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 .logo {
-    color: var(--gold);
-    font-family: 'Josefin Sans', sans-serif;
-    cursor: pointer;    
-}
-
-.logo h1 {
-    font-size: 5.5vh;
-    font-weight: 400;
-}
-
-.logo-line {
-    
-    border: 1px solid;
+    font-size: 8vh;
+    font-family: 'Crimson Text', serif;
+    cursor: pointer;
 }
 
 .nav-menu {
@@ -68,26 +64,24 @@ a:active {
 }
 
 .nav-menu li {
-    padding: 0 2vw;
+    margin: 0 4vw;
 }
 
 .menu-item {
-    font-size: 3.5vh;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 200;
+    font-size: 1.5vw;
+    color: var(--beige);
 }
 
-#menu-btn {
-    font-size: 5vh;
-    cursor: pointer;
-    position: absolute;
-    right: 4vh;
-    color: var(--white);
-    margin-top: 8vh;
-    display: none;
+#menu1,
+#menu2 {
+    color: var(--beige);
 }
 
-/*
+.nav-menu-btn {
+    color: var(--brown);
+}
+
+
 .btn {
     background-color: var(--beige);
     color: var(--brown);
@@ -98,19 +92,20 @@ a:active {
     transition: 0.5s;
     text-transform: uppercase;
 }
-*/
 
-/*menu*/
-
-/*header*/
-.hero {
-    width: 100%;
-    height: 80vh;
-    background-image: url(../images/tamara-bellis-ZvPoZtY-0ng-unsplash.jpg);
-    background-size: cover;
+#menu-btn {
+    font-size: 5vh;
+    cursor: pointer;
+    position: absolute;
+    right: 4vh;
+    color: var(--beige);
+    margin-top: 8vh;
+    display: none;
 }
 
-/*header*/
+#nav-btn {
+    color: var(--brown);
+}
 
 
 
