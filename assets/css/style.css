@@ -9,7 +9,6 @@
 
 html {
     scroll-behavior: smooth;
-    background-color: var(--white);
 }
 
 body {
@@ -39,22 +38,26 @@ a:active {
 /*menu*/
 .nav-style {
     width: 100%;
-    height: 30vh;
-    background-color: var(--orange);
+    height: 25vh;
+   
     color: var(--black);
     padding: 0 5vw; 
 }
 
 .nav-logo {
-    max-width: 25%;
+    max-width: 20%;
     height: auto;
 }
 
 .menu-item {
-    font-size: 2vw;
+    font-size: 1.8vw;
     color: var(--black);
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
+}
+
+.list-item {
+    padding: 1vw;
 }
 
 
