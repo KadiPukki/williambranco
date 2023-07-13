@@ -50,14 +50,22 @@ a:active {
 }
 
 .menu-item {
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     color: var(--black);
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
 }
 
+.menu-item:hover {
+    color: var(--orange);
+}
+
 .list-item {
     padding: 1vw;
+}
+
+.menu-btn {
+    color: var(--black);
 }
 
 
