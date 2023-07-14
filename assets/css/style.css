@@ -36,12 +36,6 @@ a:active {
 }
 
 /*menu*/
-.nav-style {
-    width: 100%;
-    height: 25vh;   
-    color: var(--black);
-    padding: 0 5vw; 
-}
 
 .logo-set {
     font-family: 'Crimson Text', serif;
@@ -73,9 +67,50 @@ a:active {
     color: var(--orange);
 }
 
-
 .menu-btn {
     color: var(--black);
 }
+/*menu*/
 
+/*header*/
+.hero {
+    background-color: #f2bf97;
+    background-image: url(../images/tamara-bellis-UStm96v3mPI-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-between;
+}
+
+.hero-media {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    margin-top: 30vh;
+    margin-left: 5vw;
+    cursor: pointer;
+    font-size: 2.5vw;
+    gap: 5vh;
+}
+
+.hero-media i:hover {
+    color: var(--orange);
+}
+
+.hero-content h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 6vw;
+    margin-right: 5vw;
+    margin-top: 30vh;
+    color: var(--white);
+}
+
+.hero-content p {
+    font-family: 'Crimson Text', serif;
+    font-size: 2vw;
+    color: var(--black);
+}
+
+/*header*/
 
