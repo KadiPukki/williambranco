@@ -38,22 +38,35 @@ a:active {
 /*menu*/
 .nav-style {
     width: 100%;
-    height: 25vh;
-   
+    height: 25vh;   
     color: var(--black);
     padding: 0 5vw; 
 }
 
-.nav-logo {
-    max-width: 20%;
-    height: auto;
+.logo-set {
+    font-family: 'Crimson Text', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--black);
+}
+
+.logo {
+    font-weight: 400;
+    font-size: 3vw;    
+}
+
+.logo-desc {
+    font-weight: 400;
+    font-size: 1.5vw;
 }
 
 .menu-item {
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     color: var(--black);
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
+    text-transform: uppercase;
 }
 
 .menu-item:hover {
