@@ -1,11 +1,12 @@
 
-@media(max-width: 850px) {
-    .logo h1 {
-        font-size: 3.5vh;
-    }
-
-    .menu-item {
-        font-size: 2vh;
+@media (max-width: 600px) {
+    .logo {
+            font-size: 5vw;
+        }
     
-    }
+        .logo-desc {
+            font-size: 2vw;
+        }
+
+   
 }
