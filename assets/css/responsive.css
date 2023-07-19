@@ -1,12 +1,16 @@
 
 @media (max-width: 600px) {
     .logo {
-            font-size: 5vw;
+            font-size: 8vw;
         }
     
         .logo-desc {
-            font-size: 2vw;
+            font-size: 5vw;
         }
+
+    .menu-item {
+        font-size: 3vw;
+    }
 
     .hero {
         flex-direction: column;
@@ -20,15 +24,15 @@
     .hero-content h1{
         font-size: 15vw;
         margin-top: 50vh;
-        margin-left: 1vw;        
+        margin-left: 3vw;        
     }
 
     .hero-content p {
         font-size: 8vw;
-        font-weight: 600;
-        width: 50%;
+        font-weight: 400;
+        width: 45%;
         margin-top: 5vh;
-        margin-left: 1vw;
+        margin-left: 3vw;
         word-break: break-all;
         
     }
