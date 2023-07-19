@@ -8,5 +8,23 @@
             font-size: 2vw;
         }
 
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero-media {
+        display: none;
+    }
+
+    .hero-content h1{
+        font-size: 15vw;
+        margin-top: 2vh;
+    }
+
+    .hero-content p {
+        font-size: 5vw;
+    }
+
    
 }
