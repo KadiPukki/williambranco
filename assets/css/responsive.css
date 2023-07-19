@@ -19,11 +19,14 @@
 
     .hero-content h1{
         font-size: 15vw;
-        margin-top: 2vh;
+        margin-top: 45vh;
+        
     }
 
     .hero-content p {
-        font-size: 5vw;
+        font-size: 8vw;
+        font-weight: 600;
+        margin-top: 5vh;
     }
 
    
