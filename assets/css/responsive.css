@@ -12,16 +12,16 @@
         font-size: 3vw;
     }
 
-    .hero {
+    /*.hero {
         flex-direction: column;
         justify-content: center;
-    }
+    }*/
 
     .hero-media {
         display: none;
     }
 
-    .hero-content h1{
+    /*.hero-content h1{
         font-size: 15vw;
         margin-top: 50vh;
         margin-left: 3vw;        
@@ -34,7 +34,7 @@
         margin-top: 5vh;
         margin-left: 3vw;
         word-break: break-all;        
-    }
+    }*/
 
 }
 

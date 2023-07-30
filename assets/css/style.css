@@ -98,8 +98,55 @@ a:active {
 }
 
 #hero-license {
-    font-size: 0.5vw;
+    font-size: 0.3vw;
 }
-
 /*header*/
 
+
+/*services*/
+.container {
+    background-color: #f2bf97;
+    display: grid;
+    width: 80%;
+    height: 80vh;
+    grid-template-areas: 
+    "item-1 item-2 item-3 item-4"
+    "item-5 item-6 item-7 item-8";
+}
+
+.item-2 {
+    background-image: url(../images/Photo\ by\ Adam\ Winger\ on\ Unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-4 {
+    background-image: url(../images/Photo\ by\ Amy\ Shamblen\ on\ Unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-6 {
+    background-image: url(../images/Photo\ by\ Chelson\ Tamares\ on\ Unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-8 {
+    background-image: url(../images/Photo\ by\ Rikonavt\ on\ Unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.hr {
+    border-top: 1px solid;
+    color: var(--black);
+}
+/*services*/
