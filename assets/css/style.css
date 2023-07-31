@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Crimson+Text:wght@400;600;700&family=Dancing+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --black: #020e04;
     --orange: #f2bf97;
@@ -104,45 +110,17 @@ a:active {
 
 
 /*services*/
-.container {
-    background-color: #f2bf97;
-    display: grid;
+.grid-container {
     width: 80%;
-    height: 80vh;    
-    grid-template-areas: 
-    "item-1 item-2 item-3 item-4"
-    "item-5 item-6 item-7 item-8";
-}
-
-.item-2 {
-    background-image: url(../images/Photo\ by\ Adam\ Winger\ on\ Unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.item-4 {
-    background-image: url(../images/Photo\ by\ Amy\ Shamblen\ on\ Unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.item-6 {
-    background-image: url(../images/Photo\ by\ Chelson\ Tamares\ on\ Unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.item-8 {
-    background-image: url(../images/Photo\ by\ Rikonavt\ on\ Unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.item-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: aquamarine;
+    height: 80vh;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+        "grid-item1 grid-item2 grid-item3 grid-item4"
+        "grid-item5 grid-item6 grid-item7 grid-item8";
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(220, 241, 244);
 }
 
 .line {
@@ -152,4 +130,36 @@ a:active {
     margin: 3vh auto;
     border-radius: 2px;
 }
+
+.grid-item1 {
+    grid-area: grid-item1;
+}
+
+.grid-item2 {
+    grid-area: grid-item2;
+    background-image: url(../images/Photo\ by\ Adam\ Winger\ on\ Unsplash.jpg);
+    background-size: cover;
+}
+
+.grid-item4 {
+    grid-area: grid-item4;
+    background-image: url(../images/Photo\ by\ Amy\ Shamblen\ on\ Unsplash.jpg);
+    background-size: cover;
+}
+
+
+.grid-item5 {
+    grid-area: grid-item5;
+    background-image: url(../images/Photo\ by\ Chelson\ Tamares\ on\ Unsplash2.jpg);
+    background-size: cover;
+}
+
+
+.grid-item7 {
+    grid-area: grid-item7;
+    background-image: url(../images/Photo\ by\ Rikonavt\ on\ Unsplash.jpg);
+    background-size: cover;
+}
+
+
 /*services*/
