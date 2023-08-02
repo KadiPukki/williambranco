@@ -8,7 +8,7 @@
 
 :root {
     --black: #020e04;
-    --orange: #f2bf97;
+    --orange: #f6ccac;
     --white: #f7f6f3;
     --transparent: #f7f6f300;
 }
@@ -124,9 +124,9 @@ a:active {
 
 .line {
     width: 15%;
-    height: 0.8vh;
+    height: 0.5vh;
     background-color: var(--black);
-    margin: 3vh auto;
+    margin: 7vh auto;
     border-radius: 2px;
 }
 
@@ -134,18 +134,40 @@ a:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f2bf97;
+}
+
+.grid-title {
+    font-family: 'Crimson Text', serif;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.grid-btn {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1.2vw;
+    font-weight: 200;
 }
 
 
 .grid-item1 {
     grid-area: grid-item1;
+    background-color: var(--orange);
+    color: var(--black);
 }
 
 .grid-item2 {
     grid-area: grid-item2;
     background-image: url(../images/Photo\ by\ Adam\ Winger\ on\ Unsplash.jpg);
     background-size: cover;
+}
+
+.grid-item3 {
+    grid-area: grid-item3;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .grid-item4 {
@@ -161,11 +183,22 @@ a:active {
     background-size: cover;
 }
 
+.grid-item6 {
+    grid-area: grid-item6;
+    background-color: var(--white);
+    color: var(--black);
+}
 
 .grid-item7 {
     grid-area: grid-item7;
     background-image: url(../images/Photo\ by\ Rikonavt\ on\ Unsplash2.jpg);
     background-size: cover;
+}
+
+.grid-item8 {
+    grid-area: grid-item8;
+    background-color: var(--orange);
+    color: var(--black);
 }
 
 
