@@ -130,6 +130,14 @@ a:active {
     border-radius: 2px;
 }
 
+.white-line {
+    width: 15%;
+    height: 0.5vh;
+    background-color: var(--white);
+    margin: 7vh auto;
+    border-radius: 2px;
+}
+
 .grid-content {
     display: flex;
     flex-direction: column;
