@@ -63,6 +63,7 @@
     }
     .grid-container {
         width: 90%;
+        height: 130vh;
         grid-template-areas:
             "grid-item1 grid-item2"
             "grid-item3 grid-item4"
@@ -83,5 +84,9 @@
 
     .grid-btn {
         font-size: 3.5vw;
+    }
+
+    .services {
+        
     }
 }
