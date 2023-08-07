@@ -74,7 +74,7 @@
     }
 
     .line, .white-line {
-        margin: 3vh auto;
+        margin: 7vh auto;
         height: 0.3vh;
     }
 
@@ -86,7 +86,5 @@
         font-size: 3.5vw;
     }
 
-    .services {
-        
-    }
+    
 }
