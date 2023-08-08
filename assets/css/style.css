@@ -235,7 +235,33 @@ a:active {
 
 .services p {
     margin: auto 2vh;
-    
+    text-transform: uppercase;    
+}
+
+.card-size {
+    max-width: 18rem;
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+.line-2 {
+    width: 100%;
+    height: 0.1vh;
+    background-color: var(--black);
+    margin: 3vh auto;
+    border-radius: 2px;
+}
+
+.card-content {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+    font-weight: 300;
 }
 
 
