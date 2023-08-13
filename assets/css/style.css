@@ -226,11 +226,11 @@ a:active {
 .services {
     background-color: var(--orange);
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     font-family: 'Crimson Text', serif;
     font-size: 6vh;
-    font-weight: 400;
-    margin: 3vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
         
 }
 
@@ -253,7 +253,7 @@ a:active {
 
 .card-title {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     font-weight: 300;
     margin-top: 2vh;
     margin-left: 1vw;
@@ -268,7 +268,7 @@ a:active {
 }
 
 .card-image-position {
-    object-fit:contain;
+    object-fit: cover;
     height: 250px;
 }
 
