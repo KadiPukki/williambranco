@@ -251,6 +251,11 @@ a:active {
     max-width: 18rem;
 }
 
+.card-size:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 .card-title {
     font-family: 'Poppins', sans-serif;
     font-size: 1.8vw;
