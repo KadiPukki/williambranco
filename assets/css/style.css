@@ -239,6 +239,14 @@ a:active {
     text-transform: uppercase;    
 }
 
+.card-container {
+    width: 80%;
+}
+
+.card-collection {
+    gap: 8vw;
+}
+
 .card-size {
     max-width: 18rem;
 }
@@ -259,11 +267,18 @@ a:active {
     border-radius: 2px;
 }
 
+.card-image-position {
+    object-fit:contain;
+    height: 250px;
+}
+
 .card-content {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2vw;
     font-weight: 300;
 }
+
+
 
 
 
