@@ -16,6 +16,10 @@
         display: none;
     }
 
+    .grid-container {
+        width: 100%;
+    }
+
     
     
 
@@ -45,8 +49,8 @@
         margin-right: 2vw;
     }
     .grid-container {
-        width: 90%;
-        height: 130vh;
+        width: 100%;
+        height: 150vh;
         grid-template-areas:
             "grid-item1 grid-item2"
             "grid-item3 grid-item4"
