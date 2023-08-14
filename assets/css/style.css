@@ -11,6 +11,7 @@
     --orange: #f3caab;
     --white: #f7f6f3;
     --transparent: #f7f6f300;
+    --light-orange: #f5d8c3;
 }
 
 html {
@@ -224,7 +225,7 @@ a:active {
 
 /*services*/
 .services {
-    background-color: var(--orange);
+    background-color: var(--light-orange);
     width: 100%;
     height: 8vh;
     font-family: 'Crimson Text', serif;
@@ -287,20 +288,53 @@ a:active {
 
 /*about*/
 .about {
-    background-color: beige;
-    width: 100%;
-    height: 90vh;
+    background-color: var(--light-orange);
+    width: 80%;
+    height: 80vh;
     display: flex;
+    margin: 5vh auto;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
 }
 
 .about-content {
-    background-color: #f3caab;
-    
+    width: 80%;
+    text-align: center;
 }
 
-.about-img {
-    background-color: var(--black);
-   
+.about-content h1 {
+    font-size: 6vmin;
+    font-weight: 400;
+}
+
+.about-content p {
+    font-size: 3vmin;
+    padding: 4vh;
+}
+
+.about-images {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-images img {
+    width: 100%;
+    margin: 0.5vw;
+    border-radius: 5px;
+}
+
+.about-images img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+#about-btn {
+    color: var(--brown);
 }
 /*about*/
 
