@@ -292,7 +292,7 @@ a:active {
     width: 80%;
     height: 80vh;
     display: flex;
-    margin: 5vh auto;
+    margin: 10vh auto;
     align-items: center;
     justify-content: center;
 }
@@ -314,7 +314,7 @@ a:active {
 }
 
 .about-images {
-    width: 40%;
+    max-width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
