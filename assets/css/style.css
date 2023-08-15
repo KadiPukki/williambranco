@@ -326,8 +326,13 @@ a:active {
     margin: 0.5vw;
 }
 
-#about-btn {
-    color: var(--brown);
+.about-btn {
+    background-color: var(--white);
+    color: var(--black);
+    text-transform: uppercase;
+    padding: 0.8vw;
+    font-size: 1vw;
+    border-radius: 2vw;
 }
 /*about*/
 
