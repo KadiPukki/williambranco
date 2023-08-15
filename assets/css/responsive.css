@@ -63,6 +63,13 @@
 
     .about-content {
         width: 90%;
+        margin-bottom: 2vh;
+    }
+
+    .about-btn {
+        padding: 0.8vw;
+        font-size: 3vw;
+        border-radius: 2vw;
     }
 
     
