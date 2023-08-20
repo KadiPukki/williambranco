@@ -337,29 +337,8 @@ a:active {
 /*about*/
 
 /*about*/
-.about-grid {
-    width: 80%;
-    height: 80vh;
-    margin: 5vh auto;
-    display: grid;
-    grid-template-areas:
-        "grid-about1 grid-about2";
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto;
-}
-
-.grid-about1 {
-    grid-area: grid-about1;
-    background-color: var(--orange);
-    color: var(--black);
-}
-
-.grid-about2 {
-    grid-area: grid-about2;
-    background-image: url(../images/will.png);
-    background-size: cover;
-    background-position: center;
+.about-card {
+    max-width: 80%;
+    display: flex;
 }
 /*about*/
-
-
