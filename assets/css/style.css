@@ -339,7 +339,7 @@ a:active {
 /*about*/
 .about {
     width: 80%;
-    max-height: 100vh;
+    max-height: 130vh;
     display: flex;
     flex-direction: row;
     background-color: var(--light-orange);
@@ -349,7 +349,17 @@ a:active {
 }
 
 .about-content {
-    width: 100%;
+    width: 90%;
+    padding: 2vmin;
+}
+
+.about-content h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.about-content p {
+    font-size: 3vmin;
+    font-weight: 200;
 }
 
 .about-img {
@@ -358,5 +368,21 @@ a:active {
 
 .about-img img {
     max-width: 100%;
+}
+
+.about-btn {
+    background-color: var(--black);
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 2.5vmin;
+    padding: 1vmin;
+    border-radius: 5vmin;
+    border-style: solid;
+}
+
+.about-btn:hover {
+    background-color: var(--white);
+    color: var(--black);
 }
 /*about*/
