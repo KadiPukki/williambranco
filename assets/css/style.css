@@ -337,28 +337,4 @@ a:active {
 /*about*/
 
 /*about*/
-.about-card {
-    background-color: var(--light-orange);
-    width: 80%;
-    max-height: 100vh;
-    display: flex;
-    margin: 10vh auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-content {
-    width: 80%;
-    font-family: 'Poppins', sans-serif;
-}
-
-.about-title {
-    font-size: 5.5vmin;
-    font-weight: 600;
-}
-
-.about-text {
-    font-size: 3vmin;
-    padding: 2vh;
-}
 /*about*/

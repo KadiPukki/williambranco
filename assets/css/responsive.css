@@ -54,26 +54,9 @@
         font-size: 2.8vw;
     }
 
-    .about {
-        flex-direction: column;
-        width: 100%;
-        height: 120vh;
-             
-    }
-
-    .about-content {
-        width: 90%;
-        margin-bottom: 2vh;
-    }
-
-    .about-btn {
-        padding: 0.8vw;
-        font-size: 3vw;
-        border-radius: 2vw;
-    }
 
     
-    
+     
 }
 
 
@@ -96,10 +79,6 @@
 
     .grid-container {
         width: 100%;
-    }
-
-    .about {
-        height: 80vh;
     }
 
 
