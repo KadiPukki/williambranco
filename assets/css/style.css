@@ -337,4 +337,26 @@ a:active {
 /*about*/
 
 /*about*/
+.about {
+    width: 80%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--light-orange);
+    margin: 10vh auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content {
+    width: 100%;
+}
+
+.about-img {
+    max-width: 100%;
+}
+
+.about-img img {
+    max-width: 100%;
+}
 /*about*/
