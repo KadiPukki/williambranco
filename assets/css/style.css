@@ -345,13 +345,20 @@ a:active {
     color: var(--white);
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10vh;
 }
 
 .footer-logo {
     color: var(--white);
 }
 
+.footer-logo-main {
+    font-size: 2.5vw;
+}
+
 .social-logo {
     width: 2em;
+    background-color: var(--white);
 }
 /*footer*/
